@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+  /*
+   * CSS image reference example.
+   */
+  background-image: url('./images/bg-pattern.png');
+}
+
+.button {
+  background-color: teal;
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: bisque;
+  border: transparent;
+  margin-right: 20px;
+  padding: 10px;
+   margin-bottom: 20px;
+  
+}
+.button:hover {
+  background-color: yellowgreen;
+  border: transparent;
+ 
+}
+.timer {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+  
+}
+.field {
+  margin-right: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
