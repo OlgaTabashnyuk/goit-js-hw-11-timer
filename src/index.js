@@ -1,6 +1,5 @@
 import './styles.css';
 
-
 const daysRef = document.querySelector('[data-value="days"]');
 const hoursRef = document.querySelector('[data-value="hours"]');
 const minsRef = document.querySelector('[data-value="mins"]');
@@ -9,7 +8,7 @@ const secsRef = document.querySelector('[data-value="secs"]');
 const startBtnRef = document.querySelector('[data-action="start"]');
 const stopBtnRef = document.querySelector('[data-action="stop"]');
 /*
-* Плагин ========
+* Плагин 
 */
 class Timer {
   constructor({onTick}) {
